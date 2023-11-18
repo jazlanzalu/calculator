@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+   margin: 0; 
+   background-color: teal;
+   overflow-x: hidden;
+}
+
+
+.calc{
+    width: 400px;
+    height: 600px;
+    background:  mediumvioletred;
+    margin-left: 5px;
+    overflow-x: hidden;
+    border-style: solid;
+    color: darkorange;
+}
+#screen{
+    width: 80%;
+    margin-left: 36px;
+
+    height: 40px;
+
+    margin-top: 30px;
+
+    pointer-events: none;
+}
+
+.btn{
+    width: 60px;
+    height: 45px;
+    margin-left: 25px;
+    margin-top: 30px;
+    background: aqua;
+}
+.main-body{
+    margin-top: 122px;
+    overflow-x: hidden;
+}
+
+@media (min-width: 768px) {
+    /* Add styles for larger screens if needed */
+    .calc {
+        height: 600px;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+}
